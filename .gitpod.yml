@@ -1,3 +1,3 @@
 tasks:
-  - init: npm install @nestjs/cli -g
-    command: echo 'Happy Programming!'
+  - init: echo 'Installing NestJS globally...'
+  - command: npm install -g @nestjs/cli
